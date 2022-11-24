@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8490AE1F292B722D006DC2AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE1E292B722D006DC2AB /* AppDelegate.swift */; };
+		8490AE21292B722D006DC2AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE20292B722D006DC2AB /* SceneDelegate.swift */; };
+		8490AE23292B722D006DC2AB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE22292B722D006DC2AB /* View.swift */; };
+		8490AE28292B7231006DC2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8490AE27292B7231006DC2AB /* Assets.xcassets */; };
+		8490AE2B292B7231006DC2AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490AE29292B7231006DC2AB /* LaunchScreen.storyboard */; };
+		8490AE36292B7232006DC2AB /* ViraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE35292B7232006DC2AB /* ViraTests.swift */; };
+		8490AE40292B7232006DC2AB /* ViraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE3F292B7232006DC2AB /* ViraUITests.swift */; };
+		8490AE42292B7232006DC2AB /* ViraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE41292B7232006DC2AB /* ViraUITestsLaunchTests.swift */; };
+		8490AE52292B9946006DC2AB /* Interractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE51292B9946006DC2AB /* Interractor.swift */; };
+		8490AE54292B995D006DC2AB /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE53292B995D006DC2AB /* Presenter.swift */; };
+		8490AE56292B9971006DC2AB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE55292B9971006DC2AB /* Router.swift */; };
+		8490AE58292B99A0006DC2AB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490AE57292B99A0006DC2AB /* Entity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8490AE32292B7232006DC2AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8490AE13292B722C006DC2AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8490AE1A292B722D006DC2AB;
+			remoteInfo = Vira;
+		};
+		8490AE3C292B7232006DC2AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8490AE13292B722C006DC2AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8490AE1A292B722D006DC2AB;
+			remoteInfo = Vira;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8490AE1B292B722D006DC2AB /* Vira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490AE1E292B722D006DC2AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8490AE20292B722D006DC2AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8490AE22292B722D006DC2AB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		8490AE27292B7231006DC2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8490AE2A292B7231006DC2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8490AE2C292B7231006DC2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8490AE31292B7232006DC2AB /* ViraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490AE35292B7232006DC2AB /* ViraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViraTests.swift; sourceTree = "<group>"; };
+		8490AE3B292B7232006DC2AB /* ViraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490AE3F292B7232006DC2AB /* ViraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViraUITests.swift; sourceTree = "<group>"; };
+		8490AE41292B7232006DC2AB /* ViraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8490AE51292B9946006DC2AB /* Interractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interractor.swift; sourceTree = "<group>"; };
+		8490AE53292B995D006DC2AB /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		8490AE55292B9971006DC2AB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8490AE57292B99A0006DC2AB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8490AE18292B722D006DC2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE2E292B7232006DC2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE38292B7232006DC2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8490AE12292B722C006DC2AB = {
+			isa = PBXGroup;
+			children = (
+				8490AE1D292B722D006DC2AB /* Vira */,
+				8490AE50292B97F0006DC2AB /* Resources */,
+				8490AE34292B7232006DC2AB /* ViraTests */,
+				8490AE3E292B7232006DC2AB /* ViraUITests */,
+				8490AE1C292B722D006DC2AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8490AE1C292B722D006DC2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE1B292B722D006DC2AB /* Vira.app */,
+				8490AE31292B7232006DC2AB /* ViraTests.xctest */,
+				8490AE3B292B7232006DC2AB /* ViraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8490AE1D292B722D006DC2AB /* Vira */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE4E292B97AC006DC2AB /* App */,
+				8490AE59292B99AF006DC2AB /* Models */,
+				8490AE4F292B97C0006DC2AB /* Screens */,
+			);
+			path = Vira;
+			sourceTree = "<group>";
+		};
+		8490AE34292B7232006DC2AB /* ViraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE35292B7232006DC2AB /* ViraTests.swift */,
+			);
+			path = ViraTests;
+			sourceTree = "<group>";
+		};
+		8490AE3E292B7232006DC2AB /* ViraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE3F292B7232006DC2AB /* ViraUITests.swift */,
+				8490AE41292B7232006DC2AB /* ViraUITestsLaunchTests.swift */,
+			);
+			path = ViraUITests;
+			sourceTree = "<group>";
+		};
+		8490AE4E292B97AC006DC2AB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE1E292B722D006DC2AB /* AppDelegate.swift */,
+				8490AE20292B722D006DC2AB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8490AE4F292B97C0006DC2AB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE5A292E22A7006DC2AB /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8490AE50292B97F0006DC2AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE27292B7231006DC2AB /* Assets.xcassets */,
+				8490AE29292B7231006DC2AB /* LaunchScreen.storyboard */,
+				8490AE2C292B7231006DC2AB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8490AE59292B99AF006DC2AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE57292B99A0006DC2AB /* Entity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8490AE5A292E22A7006DC2AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8490AE22292B722D006DC2AB /* View.swift */,
+				8490AE51292B9946006DC2AB /* Interractor.swift */,
+				8490AE53292B995D006DC2AB /* Presenter.swift */,
+				8490AE55292B9971006DC2AB /* Router.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8490AE1A292B722D006DC2AB /* Vira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8490AE45292B7232006DC2AB /* Build configuration list for PBXNativeTarget "Vira" */;
+			buildPhases = (
+				8490AE17292B722D006DC2AB /* Sources */,
+				8490AE18292B722D006DC2AB /* Frameworks */,
+				8490AE19292B722D006DC2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vira;
+			productName = Vira;
+			productReference = 8490AE1B292B722D006DC2AB /* Vira.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8490AE30292B7232006DC2AB /* ViraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8490AE48292B7232006DC2AB /* Build configuration list for PBXNativeTarget "ViraTests" */;
+			buildPhases = (
+				8490AE2D292B7232006DC2AB /* Sources */,
+				8490AE2E292B7232006DC2AB /* Frameworks */,
+				8490AE2F292B7232006DC2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8490AE33292B7232006DC2AB /* PBXTargetDependency */,
+			);
+			name = ViraTests;
+			productName = ViraTests;
+			productReference = 8490AE31292B7232006DC2AB /* ViraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8490AE3A292B7232006DC2AB /* ViraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8490AE4B292B7232006DC2AB /* Build configuration list for PBXNativeTarget "ViraUITests" */;
+			buildPhases = (
+				8490AE37292B7232006DC2AB /* Sources */,
+				8490AE38292B7232006DC2AB /* Frameworks */,
+				8490AE39292B7232006DC2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8490AE3D292B7232006DC2AB /* PBXTargetDependency */,
+			);
+			name = ViraUITests;
+			productName = ViraUITests;
+			productReference = 8490AE3B292B7232006DC2AB /* ViraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8490AE13292B722C006DC2AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8490AE1A292B722D006DC2AB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8490AE30292B7232006DC2AB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8490AE1A292B722D006DC2AB;
+					};
+					8490AE3A292B7232006DC2AB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8490AE1A292B722D006DC2AB;
+					};
+				};
+			};
+			buildConfigurationList = 8490AE16292B722C006DC2AB /* Build configuration list for PBXProject "Vira" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8490AE12292B722C006DC2AB;
+			productRefGroup = 8490AE1C292B722D006DC2AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8490AE1A292B722D006DC2AB /* Vira */,
+				8490AE30292B7232006DC2AB /* ViraTests */,
+				8490AE3A292B7232006DC2AB /* ViraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8490AE19292B722D006DC2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490AE2B292B7231006DC2AB /* LaunchScreen.storyboard in Resources */,
+				8490AE28292B7231006DC2AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE2F292B7232006DC2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE39292B7232006DC2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8490AE17292B722D006DC2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490AE23292B722D006DC2AB /* View.swift in Sources */,
+				8490AE1F292B722D006DC2AB /* AppDelegate.swift in Sources */,
+				8490AE58292B99A0006DC2AB /* Entity.swift in Sources */,
+				8490AE52292B9946006DC2AB /* Interractor.swift in Sources */,
+				8490AE21292B722D006DC2AB /* SceneDelegate.swift in Sources */,
+				8490AE56292B9971006DC2AB /* Router.swift in Sources */,
+				8490AE54292B995D006DC2AB /* Presenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE2D292B7232006DC2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490AE36292B7232006DC2AB /* ViraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8490AE37292B7232006DC2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490AE42292B7232006DC2AB /* ViraUITestsLaunchTests.swift in Sources */,
+				8490AE40292B7232006DC2AB /* ViraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8490AE33292B7232006DC2AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8490AE1A292B722D006DC2AB /* Vira */;
+			targetProxy = 8490AE32292B7232006DC2AB /* PBXContainerItemProxy */;
+		};
+		8490AE3D292B7232006DC2AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8490AE1A292B722D006DC2AB /* Vira */;
+			targetProxy = 8490AE3C292B7232006DC2AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8490AE29292B7231006DC2AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8490AE2A292B7231006DC2AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8490AE43292B7232006DC2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8490AE44292B7232006DC2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8490AE46292B7232006DC2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.Vira";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8490AE47292B7232006DC2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.Vira";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8490AE49292B7232006DC2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ViraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vira.app/Vira";
+			};
+			name = Debug;
+		};
+		8490AE4A292B7232006DC2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ViraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vira.app/Vira";
+			};
+			name = Release;
+		};
+		8490AE4C292B7232006DC2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ViraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vira;
+			};
+			name = Debug;
+		};
+		8490AE4D292B7232006DC2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R926QC5V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ViraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vira;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8490AE16292B722C006DC2AB /* Build configuration list for PBXProject "Vira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490AE43292B7232006DC2AB /* Debug */,
+				8490AE44292B7232006DC2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8490AE45292B7232006DC2AB /* Build configuration list for PBXNativeTarget "Vira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490AE46292B7232006DC2AB /* Debug */,
+				8490AE47292B7232006DC2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8490AE48292B7232006DC2AB /* Build configuration list for PBXNativeTarget "ViraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490AE49292B7232006DC2AB /* Debug */,
+				8490AE4A292B7232006DC2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8490AE4B292B7232006DC2AB /* Build configuration list for PBXNativeTarget "ViraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490AE4C292B7232006DC2AB /* Debug */,
+				8490AE4D292B7232006DC2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8490AE13292B722C006DC2AB /* Project object */;
+}
